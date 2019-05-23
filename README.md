@@ -1,7 +1,3 @@
----
-description: a demo of gitbook page
----
-
 # Introduction
 
 ## Chapter1
