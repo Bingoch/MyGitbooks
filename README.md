@@ -2,7 +2,7 @@
 description: a demo of gitbook page
 ---
 
-# How to Create A Page
+# README
 
 ## Chapter1
 
@@ -13,6 +13,4 @@ This is chapter1
 This is Chapter2
 
 ## Chapter3
-
-
 
