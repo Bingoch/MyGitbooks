@@ -1,8 +1,6 @@
 # SpringMVC
 
-SpringMVC1. 三层结构介绍1.1 表现层1.2 业务层1.3 持久层2. MVC 设计模式3. 执行流程配置web.xml 配置spring-mvc 配置Controller返回值及常用注解1. 不使用注解修饰1.1返回ModelAndView1.2 返回void1.3 返回字符串2. 使用注解2.1 @ResponseBody 注解2.2 @RestController 注解3. @RequestMapping 注解参数绑定1. 默认支持的类型2. 基本数据类型3.包装数据类型4. POJO（实体类）类型的绑定5. 集合类型
-
-## SpringMVC
+## 三层架构
 
 ### 1. 三层结构介绍
 
