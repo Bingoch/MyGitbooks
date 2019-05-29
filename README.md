@@ -4,11 +4,11 @@ The documents are collected and recorded as a memorandum to remind me what shoul
 
 ## Chapter1
 
-{% page-ref page="springmvc.md" %}
+[Springmvc](https://github.com/Bingoch/MyGitbooks/blob/master/springmvc.md)
 
 ## Chapter2
 
-{% page-ref page="git.md" %}
+[Git](https://github.com/Bingoch/MyGitbooks/blob/master/git.md) Command
 
 ## 
 
