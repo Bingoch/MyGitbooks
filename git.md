@@ -311,3 +311,5 @@ Git的设置文件为`.gitconfig`，它可以在用户主目录下（全局配�
 > $ git archive
 > ```
 
+收集自阮一峰[常用Git命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
+
