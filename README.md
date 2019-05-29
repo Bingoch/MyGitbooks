@@ -4,11 +4,11 @@ The documents are collected and recorded as a memorandum to remind me what shoul
 
 ## Chapter1
 
-[Springmvc](https://github.com/Bingoch/MyGitbooks/blob/master/springmvc.md)
+[Springmvc guide](https://github.com/Bingoch/MyGitbooks/blob/master/springmvc.md)
 
 ## Chapter2
 
-[Git](https://github.com/Bingoch/MyGitbooks/blob/master/git.md) Command
+[Git Commands](https://github.com/Bingoch/MyGitbooks/blob/master/git.md)
 
 ## 
 
