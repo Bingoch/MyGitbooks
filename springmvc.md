@@ -26,16 +26,16 @@
 
 **MVC** 全名是 Model View Controller，是**模型\(model\)－视图\(view\)－控制器\(controller\)**的缩写， 是一种用于设计创建 Web 应用程序表现层的模式。MVC 中每个部分各司其职：
 
-1. Model（模型）
+**Model（模型）**
 
 * 模型包含业务模型和数据模型，数据模型用于封装数据，业务模型用于处理业务。
 
-1. View（视图）
+**View（视图）**
 
 * 通常指的就是我们的 jsp 或者 html，作用一般就是展示数据的。
 * 通常视图是依据模型数据创建的。
 
-1. Controller（控制器）
+**Controller（控制器）**
 
 * 是应用程序中处理用户交互的部分。作用一般就是处理程序逻辑的。
 
@@ -157,19 +157,19 @@ Controller 方法的返回值分为不使用注解修饰和注解修饰两种。
 
 #### 1.2 返回void
 
- \(1\) 使用 request 转发向页面
+ **\(1\) 使用 request 转发向页面**
 
 ```text
  request.getRequestDispatcher("页面路径").forward(request, response);
 ```
 
- \(2\) 通过 response 页面重定向
+ **\(2\) 通过 response 页面重定向**
 
 ```text
  response.sendRedirect("url")
 ```
 
- \(3\) 通过 response 指定响应结果
+ **\(3\) 通过 response 指定响应结果**
 
 ```text
  @RequestMapping(value = "returnVoid")
@@ -182,7 +182,7 @@ Controller 方法的返回值分为不使用注解修饰和注解修饰两种。
 
 #### 1.3 返回字符串
 
- \(1\) 逻辑视图名
+ **\(1\) 逻辑视图名**
 
 ```text
  @RequestMapping(value = "returnString")
@@ -193,7 +193,7 @@ Controller 方法的返回值分为不使用注解修饰和注解修饰两种。
  }
 ```
 
- \(2\) redirect 重定向
+ **\(2\) redirect 重定向**
 
 ```text
  /**
@@ -213,7 +213,7 @@ Controller 方法的返回值分为不使用注解修饰和注解修饰两种。
  }
 ```
 
- \(3\) forward 转发
+ **\(3\) forward 转发**
 
 ```text
  /**
@@ -270,12 +270,12 @@ Controller 方法的返回值分为不使用注解修饰和注解修饰两种。
 
 ### 3. @RequestMapping 注解
 
-1. URL路径映射
+**URL路径映射**
 
 * @RequestMapping\(value="item"\) 或 @RequestMapping\("item"）
 * value的值是数组，可以将多个url映射到同一个方法 @RequestMapping\(value = {"itemList", "items"}\)
 
-1. 窄化请求映射
+**窄化请求映射**
 
 在 class 上添加 @RequestMapping\(url\) 指定通用请求前缀， 限制此类下的所有方法的访问请求 url 必须以请求前缀开头，通过此方法对 url 进行模块化分类管理。
 
@@ -295,7 +295,7 @@ Controller 方法的返回值分为不使用注解修饰和注解修饰两种。
  }
 ```
 
-1. 请求方法限定
+**请求方法限定**
 
 ```text
  @RequestMapping(method = RequestMethod.GET)
@@ -381,7 +381,7 @@ SpringMVC 有支持的默认参数类型，我们直接在形参上给出这些�
 
 ### 5. 集合类型
 
-1. 数组绑定
+**数组绑定**
 
 ```text
  @RequestMapping("/basicData")
@@ -390,7 +390,7 @@ SpringMVC 有支持的默认参数类型，我们直接在形参上给出这些�
      }
 ```
 
-1. List与Map绑定
+**List与Map绑定**
 
 在包装的pojo中新添加一个List 和 Map类型的属性
 
